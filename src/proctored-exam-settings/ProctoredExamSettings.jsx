@@ -368,7 +368,8 @@ function ExamSettings(props) {
           </fieldset>
         )}
         <Button
-          className="btn-primary mb-3"
+          variant="primary"
+          className="mb-3"
           data-test-id="submissionButton"
           type="submit"
           disabled={submissionInProgress}
@@ -534,7 +535,7 @@ function ExamSettings(props) {
 
   return (
     <div className="container">
-      <h2 className="mb-1">
+      <h2 className="mt-3 mb-2">
         Proctored Exam Settings
       </h2>
       <div>
