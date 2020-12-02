@@ -273,7 +273,7 @@ function ExamSettings(props) {
         {/* PROCTORING PROVIDER */}
         { enableProctoredExams && (
         <Form.Group controlId="formProctoringProvider">
-          <Form.Label>
+          <Form.Label as="legend">
             <FormattedMessage
               id="authoring.examsettings.provider.label"
               defaultMessage="Proctoring Provider"
